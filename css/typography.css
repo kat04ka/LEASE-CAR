@@ -1,0 +1,48 @@
+/* Base */
+body {
+  font-family: var(--font-base);
+  font-size: var(--base-font-size);
+  font-weight: var(--base-font-weight);
+  line-height: var(--base-font-height);
+  color: var(--color-black);
+}
+
+/* ===== Headings ===== */
+.ag-h0 {
+  font-size: var(--ag-h0-size);
+  line-height: var(--ag-h0-line);
+  font-weight: var(--ag-h0-weight);
+}
+
+.ag-h1 {
+  font-size: var(--ag-h1-size);
+  line-height: var(--ag-h1-line);
+  font-weight: var(--ag-h1-weight);
+}
+
+.ag-h2 {
+  font-size: var(--ag-h2-size);
+  line-height: var(--ag-h2-line);
+  font-weight: var(--ag-h2-weight);
+}
+
+/* ===== UI ===== */
+.ag-menu {
+  font-size: var(--ag-menu-size);
+  line-height: var(--ag-menu-line);
+  font-weight: var(--ag-menu-weight);
+}
+
+.ag-button {
+  font-size: var(--ag-button-size);
+  line-height: var(--ag-button-line);
+  font-weight: var(--ag-button-weight);
+  color: var(--color-white);
+}
+
+/* ===== Text ===== */
+.ag-text {
+  font-size: var(--ag-text-size);
+  line-height: var(--ag-text-line);
+  font-weight: var(--ag-text-weight);
+}

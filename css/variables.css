@@ -1,0 +1,45 @@
+:root {
+  /* Fonts */
+  --font-base: "Inter", sans-serif;
+
+  /* Base */
+  --base-font-size: 16px;
+  --base-font-weight: 400;
+  --base-font-height: 1.3;
+
+  /* Colors */
+  --color-black: #151515;
+  --color-white: #fff;
+  --color-gray: #E8E8E8;
+  --color-blue: #0066FF;
+
+  /* ===== H0 ===== */
+  --ag-h0-size: 96px;
+  --ag-h0-line: 1;
+  --ag-h0-weight: 700;
+
+  /* ===== H1 ===== */
+  --ag-h1-size: 48px;
+  --ag-h1-line: 1;
+  --ag-h1-weight: 700;
+
+  /* ===== H2 ===== */
+  --ag-h2-size: 24px;
+  --ag-h2-line: 1;
+  --ag-h2-weight: 700;
+
+  /* ===== Menu ===== */
+  --ag-menu-size: 16px;
+  --ag-menu-line: 1;
+  --ag-menu-weight: 700;
+
+  /* ===== Button ===== */
+  --ag-button-size: 36px;
+  --ag-button-line: 1;
+  --ag-button-weight: 700;
+
+  /* ===== Text ===== */
+  --ag-text-size: 16px;
+  --ag-text-line: 1.3;
+  --ag-text-weight: 400;
+}
