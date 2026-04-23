@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/typography.css" />
     <link rel="stylesheet" href="css/index.css" />
@@ -19,7 +23,7 @@
         <div class="container">
           <div class="header__inner ag-menu">
             <a href="" class="logo">
-              <img src="images/logo1.svg" alt="" class="logo__img" />
+              <img src="images/logo.svg" alt="" class="logo__img" />
             </a>
             <nav class="menu">
               <ul class="menu__list">
@@ -44,7 +48,22 @@
         </div>
       </header>
       <main class="main">
-
+        <section class="top">
+          <div class="container">
+            <h1 class="title ag-h0">Leasing From D&M</h1>
+            <a href="#" class="top__link ag-button">FIND A CAR</a>
+          </div>
+        </section>
+        
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url(images/slider1.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(images/slider1.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(images/slider1.jpg);"></div>
+            <div class="swiper-slide" style="background-image: url(images/slider1.jpg);"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </main>
       <footer class="footer">
         <div class="container">
@@ -118,8 +137,8 @@
           </ul>
           <div class="footer__copy">
             <p class="footer__copy-text">
-              For questions about the TrueCar Auto Buying Service please call 1-888-878-3227.
-              Certified Dealers are contractually obligated by
+              For questions about the TrueCar Auto Buying Service please call
+              1-888-878-3227. Certified Dealers are contractually obligated by
               TrueCar to meet certain customer service requirements and complete
               the TrueCar Dealer Certification Program.
             </p>
@@ -140,12 +159,16 @@
                 <a href="#" class="copy__nav-link">Privacy Policy</a>
               </li>
               <li class="copy__nav-item">
-                <a href="#" class="copy__nav-link">Do Not Sell My Personal Information</a>
+                <a href="#" class="copy__nav-link"
+                  >Do Not Sell My Personal Information</a
+                >
               </li>
             </ul>
           </nav>
         </div>
       </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
